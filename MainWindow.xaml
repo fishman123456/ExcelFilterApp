@@ -1,7 +1,7 @@
 ﻿<Window x:Class="ExcelFilterApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Фильтр Excel (-K, -S)" Height="260" Width="480">
+        Title="Фильтр Excel (-K, -S)" Height="260" Width="504">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -24,7 +24,9 @@
         <Run Text="3. Верхняя строка будет заголовком на листах '-K' и '-S'."/><LineBreak/>
         <Run Text="4. Строки с '-K' переносим на лист '-K'."/><LineBreak/>
         <Run Text="5. Строки с '-S' переносим на лист '-S'."/><LineBreak/>
-        <Run Text="5. Новокузнецк 2026-14-07 АСКО."/><LineBreak/>
+        <Run Text="6. На листах '-K' и '-S' строки будут отсортированы по убыванию по первой цифре" /><LineBreak/>
+        <Run Text="перед точкой в первом столбце (5, 4, 3, 2, 1, затем без цифр)."/><LineBreak/>
+        <Run Text="7. Новокузнецк 2026-14-07 АСКО."/><LineBreak/>
         </TextBlock>
 
         <!-- Кнопка запуска -->
